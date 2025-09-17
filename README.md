@@ -1,6 +1,6 @@
-# Web Command Simulator (SAFE)
+# OS Command Simulator (SAFE)
 
-**Web Command Simulator** adalah aplikasi PHP sederhana untuk tujuan pembelajaran yang **TIDAK** mengeksekusi perintah shell. Aplikasi ini menampilkan perintah yang diterima (disanitasi) dan memberikan *simulated output* untuk beberapa perintah umum (mis. `date`, `uptime`, `echo`). Aplikasi ini ditujukan hanya untuk latihan dan demonstrasi konsep webshell tanpa resiko.
+**OS Command Simulator** adalah aplikasi PHP sederhana untuk tujuan pembelajaran yang **TIDAK** mengeksekusi perintah shell. Aplikasi ini menampilkan perintah yang diterima (disanitasi) dan memberikan *simulated output* untuk beberapa perintah umum (mis. `date`, `uptime`, `echo`). Aplikasi ini ditujukan hanya untuk latihan dan demonstrasi konsep webshell tanpa resiko.
 
 > **PERINGATAN:** Jangan pernah menaruh aplikasi ini di server publik tanpa konfigurasi keamanan. Gunakan hanya di lingkungan lokal atau VM lab.
 
@@ -18,13 +18,13 @@ php -S 127.0.0.1:8000
 
 Buka di browser: http://127.0.0.1:8000/simulator.php
 
-Cara kontribusi
-Fork repo ini.
-Buat branch fitur: git checkout -b feature/nama-fitur
-Commit perubahan: git commit -m "feat: deskripsi singkat"
-Push dan buat pull request.
+## Cara kontribusi
+- Fork repo ini.
+- Buat branch fitur: git checkout -b feature/nama-fitur
+- Commit perubahan: git commit -m "feat: deskripsi singkat"
+- Push dan buat pull request.
 
-Keamanan & Etika
-Aplikasi ini tidak mengeksekusi perintah — ini sengaja demi keamanan.
-Jangan mengunggah file yang berisi password atau credential.
-Jangan gunakan contoh ini untuk melakukan aktivitas ilegal.
+#Keamanan & Etika
+- Aplikasi ini tidak mengeksekusi perintah — ini sengaja demi keamanan.
+- Jangan mengunggah file yang berisi password atau credential.
+- Jangan gunakan contoh ini untuk melakukan aktivitas ilegal.
