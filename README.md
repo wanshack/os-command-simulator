@@ -17,7 +17,7 @@
 php -S 127.0.0.1:8000
 
 Buka di browser: http://127.0.0.1:8000/simulator.php
-
+```
 ## Cara Berkontribusi
 - Fork repo ini.
 - Buat branch fitur: git checkout -b feature/nama-fitur
